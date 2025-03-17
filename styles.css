@@ -1,0 +1,242 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar .nav-links a {
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration:none;
+    color:black;
+    padding: 8px 15px;
+    background-color: royalblue;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-weight: bold;
+    border: 3px solid black;
+  }
+  
+  .navbar .nav-links a:hover {
+    background-color:aqua;
+    color:black;
+    transform: translateY(-3px);
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-shadow: 2px 2px 5px black;
+    height: 65vh;
+    background: url(c1.jpg) no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .cta-button {
+    background-color: royalblue;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .hero .cta-button:hover {
+    border: 1px solid black;
+    background-color: aqua;
+    color: white;
+  }
+  
+  /* Product Section */
+  .product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color:lavender;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product-details {
+    max-width: 400px;
+  }
+  
+  .product-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product-details .description {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-details .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6347;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-details .buy-button {
+    background-color: #222;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-details .buy-button:hover {
+    background-color: #444;
+  }
+  
+  /* Reviews Section */
+  .reviews {
+    padding: 4rem 2rem;
+    background-color: lightskyblue;
+    text-align: center;
+  }
+  
+  .reviews h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .review-card {
+    background-color:lightblue;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* FAQs Section */
+  .faqs {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: lightsteelblue;
+  }
+  
+  .faqs h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    ;
+  }
+  
+  .faq-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .contact {
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  
+  .contact p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info {
+    text-align: left;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-item i {
+    font-size: 1.5rem;
+    color: #ff6347;
+    margin-right: 1rem;
+  }
+  
+  .contact-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .contact-item a {
+    color: #ff6347;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  /* Footer */
+  footer {
+    background-color: #222;
+    color:white;
+    text-align: center;
+    padding: 20px 0;
+  }
